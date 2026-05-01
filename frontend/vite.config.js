@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   preview: {
-    allowedHosts: ['scintillating-endurance-production-626e.up.railway.app'],
-    host: true,
+    allowedHosts: 'all',
+    host: '0.0.0.0',
     port: 4173
   }
 })
